@@ -5,10 +5,10 @@ import AddClassBody from '../elements/AddClassBody'
 import BackToTop from '../elements/BackToTop'
 import Breadcrumb from './Breadcrumb'
 import MobileMenu from './MobileMenu'
-// import Footer1 from './footer/Footer1'
+import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
-// import Footer3 from './footer/Footer3'
-// import Footer4 from './footer/Footer4'
+import Footer3 from './footer/Footer3'
+import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, topBar, headerCls, logoWhite }) {
