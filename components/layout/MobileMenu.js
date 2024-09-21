@@ -52,11 +52,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                             <Link className="active" href="/">Home Pages</Link>
                                             <ul className="sub-menu" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                                 <li><Link href="/">Business Solutions</Link></li>
-                                                <li><Link href="/index-2">Marketing App</Link></li>
-                                                <li><Link href="/index-3">Web Agency</Link></li>
-                                                <li><Link href="/index-4">Digital Agency</Link></li>
-                                                <li><Link href="/index-5">3D Products</Link></li>
-                                                <li><Link href="/index-6">AI Platform</Link></li>
+                                                <li><Link href="/">Marketing App</Link></li>
+                                                <li><Link href="/">Web Agency</Link></li>
+                                                <li><Link href="/">Digital Agency</Link></li>
+                                                <li><Link href="/">3D Products</Link></li>
+                                                <li><Link href="/">AI Platform</Link></li>
                                             </ul>
                                         </li>
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"}>
@@ -64,17 +64,17 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
 
                                             <Link href="#">Inner Pages</Link>
                                             <ul className="sub-menu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                                <li><Link href="/about">About Us</Link></li>
-                                                <li><Link href="/service">Our Services</Link></li>
-                                                <li><Link href="/pricing">Pricing Plan</Link></li>
-                                                <li><Link href="/help">Help Center</Link></li>
-                                                <li><Link href="/integration">Integrations</Link></li>
-                                                <li><Link href="/careers">Careers</Link></li>
-                                                <li><Link href="/job-detail">Job details</Link></li>
-                                                <li><Link href="/feature">Features V1</Link></li>
-                                                <li><Link href="/feature-2">Features V2</Link></li>
-                                                <li><Link href="/feature-3">Features V3</Link></li>
-                                                <li><Link href="/contact">Contact us</Link></li>
+                                                <li><Link href="/">About Us</Link></li>
+                                                <li><Link href="/">Our Services</Link></li>
+                                                <li><Link href="/">Pricing Plan</Link></li>
+                                                <li><Link href="/">Help Center</Link></li>
+                                                <li><Link href="/">Integrations</Link></li>
+                                                <li><Link href="/">Careers</Link></li>
+                                                <li><Link href="/">Job details</Link></li>
+                                                <li><Link href="/">Features V1</Link></li>
+                                                <li><Link href="/">Features V2</Link></li>
+                                                <li><Link href="/">Features V3</Link></li>
+                                                <li><Link href="/">Contact us</Link></li>
                                             </ul>
                                         </li>
                                         <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
@@ -82,9 +82,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
 
                                             <Link href="#">Blog</Link>
                                             <ul className="sub-menu" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                                <li><Link href="/blog">Blog V1</Link></li>
-                                                <li><Link href="/blog-2">Blog V2</Link></li>
-                                                <li><Link href="/blog-post">Blog post</Link></li>
+                                                <li><Link href="/">Blog V1</Link></li>
+                                                <li><Link href="/">Blog V2</Link></li>
+                                                <li><Link href="/">Blog post</Link></li>
                                             </ul>
                                         </li>
                                         <li className={isActive.key == 4 ? "has-children active" : "has-children"}>
@@ -92,13 +92,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
 
                                             <Link href="#">Utility pages</Link>
                                             <ul className="sub-menu" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                                <li><Link href="/register">Register</Link></li>
-                                                <li><Link href="/login">Sign In</Link></li>
-                                                <li><Link href="/forget-password">Forgot password</Link></li>
-                                                <li><Link href="/term-conditions">Terms  conditions</Link></li>
-                                                <li><Link href="/404">404 Not found</Link></li>
-                                                <li><Link href="/change-log">Change log</Link></li>
-                                                <li><Link href="/comming-soon">Comming soon</Link></li>
+                                                <li><Link href="/">Register</Link></li>
+                                                <li><Link href="/">Sign In</Link></li>
+                                                <li><Link href="/">Forgot password</Link></li>
+                                                <li><Link href="/">Terms  conditions</Link></li>
+                                                <li><Link href="/">404 Not found</Link></li>
+                                                <li><Link href="/">Change log</Link></li>
+                                                <li><Link href="/">Comming soon</Link></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -113,7 +113,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                     <li><Link href="#">My Collections</Link></li>
                                     <li><Link href="#">Account Settings</Link></li>
                                     <li><Link href="#">Go Pro</Link></li>
-                                    <li><Link href="/login">Sign Out</Link></li>
+                                    <li><Link href="/">Sign Out</Link></li>
                                 </ul>
                             </div>
                             <div className="mobile-social-icon mb-50">
