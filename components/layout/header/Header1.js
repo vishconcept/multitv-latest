@@ -40,8 +40,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                         </li>
                                         <li className="has-children"><Link href="/">About</Link></li>
                                         <li className="has-children"><Link href="/">Services</Link></li>
-                                        <li className="mega-li has-children"><Link href="#">Pages</Link>
-                                            {/* <div className="mega-menu">
+                                      {/*   <li className="mega-li has-children"><Link href="#">Pages</Link>
+                                            <div className="mega-menu">
                                                 <div className="mega-menu-inner">
                                                     <div className="row">
                                                         <div className="col-lg-8">
@@ -118,15 +118,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, topBar
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> */}
-                                        </li>
-                                        <li className="has-children"><Link href="/">Blog</Link>
-                                            {/* <ul className="sub-menu">
+                                            </div> 
+                                        </li> */}
+                                        {/* <li className="has-children"><Link href="/">Blog</Link>
+                                            <ul className="sub-menu">
                                                 <li><Link href="/blog">Blog V1</Link></li>
                                                 <li><Link href="/blog-2">Blog V2</Link></li>
                                                 <li><Link href="/blog-post">Blog post</Link></li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         <li className="has-children"><Link href="/">Contact</Link></li>
                                     </ul>
                                 </nav>
